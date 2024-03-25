@@ -25,6 +25,28 @@ aes = { version = "0.8.3", features = ["hazmat"] }
 measureme = "11"
 ctrlc = "3.2.5"
 
+rustc_data_structures = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_data_structures" }
+rustc_span = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_span" }
+rustc_ast = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_ast" }
+rustc_middle = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_middle" }
+rustc_index = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_index" }
+rustc_target = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_target" }
+rustc_hir = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_hir" }
+rustc_session = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_session" }
+
+rustc_const_eval = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_const_eval" }
+rustc_errors = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_errors" }
+rustc_driver = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_driver" }
+rustc_macros = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_macros" }
+rustc_interface = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_interface" }
+rustc_log = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_log" }
+rustc_metadata = { path = "C:\\Users\\chy\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\rustc-src\\rust\\compiler\\rustc_metadata" }
+
+
+tracing = "0.1.30"
+
+either = "1.10.0"
+rustc_apfloat = "0.2.0"
 # Copied from `compiler/rustc/Cargo.toml`.
 # But only for some targets, it fails for others. Rustc configures this in its CI, but we can't
 # easily use that since we support of-tree builds.
